@@ -16,7 +16,7 @@
         body {
             background: rgb(204, 204, 204);
         }
-        
+
         page {
             background: white;
             display: block;
@@ -24,77 +24,78 @@
             margin-bottom: 0.5cm;
             box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
         }
-        
+
         page[size="A4"] {
             width: 21cm;
             height: 29.7cm;
         }
-        
+
         page[size="A4"][layout="landscape"] {
             width: 29.7cm;
             height: 21cm;
         }
-        
+
         page[size="A3"] {
             width: 29.7cm;
             height: 42cm;
         }
-        
+
         page[size="A3"][layout="landscape"] {
             width: 42cm;
             height: 29.7cm;
         }
-        
+
         page[size="A5"] {
             width: 14.8cm;
             height: 21cm;
         }
-        
+
         page[size="A5"][layout="landscape"] {
             width: 21cm;
             height: 14.8cm;
         }
-        
+
         @media print {
+
             body,
             page {
                 margin: 0;
                 box-shadow: 0;
             }
         }
-        
+
         .content {
             padding: 20px;
         }
-        
+
         .table {
             margin: 0;
             padding: 0;
             width: 100%;
             border: 0.15em solid #000;
         }
-        
+
         td {
             font-size: 11px;
             vertical-align: top;
             /* padding-left: 5px; */
         }
-        
+
         .td-bl {
             border-left: 2px solid #000;
         }
-        
+
         .row {
             margin-top: 2px;
         }
-        
+
         .item {
             border-left: 2px solid #000;
             border-top: 2px solid #000;
             border-bottom: 2px solid #000;
             padding: 3px;
         }
-        
+
         .item_checked {
             border-left: 2px solid #000;
             border-top: 2px solid #000;
@@ -102,25 +103,25 @@
             background-color: #3aab97;
             padding: 3px;
         }
-        
+
         .item2 {
             border: 2px solid #000;
             padding: 3px;
         }
-        
+
         .item2_checked {
             border: 2px solid #000;
             background-color: #3aab97;
             padding: 3px;
         }
-        
+
         .indicador {
             position: r;
             border-right: 2px solid #000;
             border-bottom: 2px solid #000;
             padding: 5px;
         }
-        
+
         #collapseTable {
             border-collapse: collapse;
         }
@@ -177,17 +178,20 @@
                 <table cellspacing="0" cellpadding="0" class="table" id="">
                     <tr>
                         <td width="50%">
-                            <table id="collapseTable" cellspacing="0" cellpadding="0" style="width: 100%; margin-top: 5px; ">
+                            <table id="collapseTable" cellspacing="0" cellpadding="0"
+                                style="width: 100%; margin-top: 5px; ">
                                 <tr>
                                     <td width="1%"><span class="indicador">1A</span></td>
                                     <td style="padding-left:10px; padding-top:5px">QUALIDADE TÉCNICA:</td>
                                     <td>
-                                        <table cellspacing="0" cellpadding="0" class="" id="collapseTable" style="margin:5px;">
+                                        <table cellspacing="0" cellpadding="0" class="" id="collapseTable"
+                                            style="margin:5px;">
                                             <tr>
                                                 <td><span class="item_checked">&nbsp1&nbsp</span></td>
                                                 <td><span class="item">&nbsp2&nbsp</span></td>
                                                 <td><span class="item">&nbsp3&nbsp</span></td>
-                                                <td><span style="border-right: 2px solid #000;" class="item">&nbsp4&nbsp</span></td>
+                                                <td><span style="border-right: 2px solid #000;"
+                                                        class="item">&nbsp4&nbsp</span></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -204,7 +208,8 @@
 
                         </td>
                         <td class="td-bl" style="vertical-align:top">
-                            <table id="collapseTable" cellspacing="0" cellpadding="0" style="width: 100%; margin-top: 5px; ">
+                            <table id="collapseTable" cellspacing="0" cellpadding="0"
+                                style="width: 100%; margin-top: 5px; ">
                                 <tr>
                                     <td><span class="indicador">1B</span></td>
                                     <td>RADIOGRAFIA NORMAL:</td>
@@ -216,9 +221,11 @@
                                     <td colspan="2"><br><br>
                                         <table>
                                             <tr>
-                                                <td><span class="item2_checked">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> SIM (finalizar a leitura)</td>
+                                                <td><span class="item2_checked">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                                                    SIM (finalizar a leitura)</td>
                                                 <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                                                    <span class="item2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> NÃO (passe para a seção 2)
+                                                    <span class="item2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> NÃO (passe
+                                                    para a seção 2)
                                                 </td>
                                             </tr>
                                         </table>
@@ -238,12 +245,15 @@
                 <table cellspacing="0" cellpadding="0" class="table" id="">
                     <tr>
                         <td width="50%">
-                            <table id="collapseTable" cellspacing="0" cellpadding="0" style="width: 100%; margin-top: 5px; " border="0">
+                            <table id="collapseTable" cellspacing="0" cellpadding="0"
+                                style="width: 100%; margin-top: 5px; " border="0">
                                 <tr>
                                     <td width="1%"><span class="indicador">2A</span></td>
                                     <td width="47%" style="padding-left:10px; padding-top:10px">QUALIDADE TÉCNICA:</td>
-                                    <td><br>&nbsp<span class="item2_checked">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> SIM (finalizar a leitura)</td>
-                                    <td><br><span class="item2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> NÃO (passe para a seção 2)</td>
+                                    <td><br>&nbsp<span class="item2_checked">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> SIM
+                                        (finalizar a leitura)</td>
+                                    <td><br><span class="item2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> NÃO (passe para a
+                                        seção 2)</td>
                                 </tr>
                             </table>
                             <br>
@@ -262,20 +272,134 @@
                 <table cellspacing="0" cellpadding="0" class="table" id="">
                     <tr>
                         <td width="70%">
-                            <table id="collapseTable" cellspacing="0" cellpadding="0" style="width: 100%; margin-top: 5px; " border="0">
+                            <table id="collapseTable" cellspacing="0" cellpadding="0"
+                                style="width: 100%; margin-top: 5px; " border="0">
                                 <tr>
                                     <td width="1%"><span class="indicador">2B</span></td>
                                     <td style="padding-left:10px; padding-top:5px">PEQUENAS OPACIDADES:</td>
-                                    <td>
 
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td width="1%"></td>
                                     <td style="padding-left:10px; padding-top:5px">
-                                        <br><br>
+                                        <br>
+
+                                        <table border="0" cellpadding="0" cellspancing="0" width="100%">
+                                            <tr>
+                                                <td colspan="2">a) Forma / tamanho </td>
+                                                <td>b) Zonas</td>
+                                                <td>c) Profusão</td>
+                                            </tr>
+                                            <tr>
+                                                <td width="15%" style="padding: 5px;">
+                                                    <br>
+                                                    Primário<br>
+
+                                                    <table width="100%" id="collapseTable" cellspacing="0"
+                                                        cellpadding="0" style="border:2px solid #000" width="100%">
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center" width="50%">p</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">s</td>
+                                                        </tr>
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center">q</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">t</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding:5px" align="center">r</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">u</td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                                <td width="15%" style="padding: 5px;">
+                                                    <Br>
+                                                    Secundário<br>
+
+                                                    <table width="100%" id="collapseTable" cellspacing="0"
+                                                        cellpadding="0" style="border:2px solid #000" width="100%">
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center" width="50%">p</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">s</td>
+                                                        </tr>
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center">q</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">t</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding:5px" align="center">r</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">u</td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td width="30%" style="padding: 2px;">
+                                                    <Br>
+                                                    <table width="100%" id="collapseTable" cellspacing="0"
+                                                        cellpadding="0" width="100%">
+                                                        <tr>
+                                                            <td style=" border-top:0px; padding:2px" align="center">D
+                                                            </td>
+                                                            <td style=" border-top:0px; padding:2px" align="center">E
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                    <table width="100%" id="collapseTable" cellspacing="0"
+                                                        cellpadding="0" style="border:2px solid #000" width="100%">
+
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center" width="50%">&nbsp;
+                                                            </td>
+                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center">&nbsp;</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding:5px" align="center">&nbsp;</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="padding: 5px;">
+
+                                                    <table width="100%" id="collapseTable" cellspacing="0"
+                                                        cellpadding="0" style="border:2px solid #000; margin-top: 2px;"
+                                                        width="100%">
+
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center" width="50%">&nbsp;
+                                                            </td>
+                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center" width="50%">&nbsp;
+                                                            </td>
+                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;
+                                                            </td>
+                                                        </tr>
+                                                        <tr style="border:2px solid #000">
+                                                            <td style="padding:5px" align="center">&nbsp;</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding:5px" align="center">&nbsp;</td>
+                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+
+                                                </td>
+                                            </tr>
+                                        </table>
+
                                     </td>
-                                    <td></td>
+
                                 </tr>
                             </table>
                             <br>
@@ -284,7 +408,8 @@
 
                         </td>
                         <td class="td-bl" style="vertical-align:top">
-                            <table id="collapseTable" cellspacing="0" cellpadding="0" style="width: 100%; margin-top: 5px; " border="0">
+                            <table id="collapseTable" cellspacing="0" cellpadding="0"
+                                style="width: 100%; margin-top: 5px; " border="0">
                                 <tr>
                                     <td><span class="indicador">2C</span></td>
                                     <td>GRANDES OPACIDADES:</td>
@@ -293,13 +418,52 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan="2"><br><br>
-
+                                    <td colspan="2" align="center"><br><br>
+                                        <table cellspacing="0" cellpadding="0" class="" id="collapseTable"
+                                            style="margin:5px;">
+                                            <tbody>
+                                                <tr>
+                                                    <td><span class="item">&nbsp;&nbsp;0&nbsp;&nbsp;</span></td>
+                                                    <td><span class="item">&nbsp;&nbsp;A&nbsp;&nbsp;</span></td>
+                                                    <td><span class="item">&nbsp;&nbsp;B&nbsp;&nbsp;</span></td>
+                                                    <td><span style="border-right: 2px solid #000;"
+                                                            class="item">&nbsp;&nbsp;C&nbsp;&nbsp;</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </td>
                                     <!-- <td></td> -->
                                 </tr>
                             </table>
                             <br>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+            <!-- 7ª -->
+            <div class="row">
+                <table cellspacing="0" cellpadding="0" class="table" id="">
+                    <tr>
+                        <td width="50%">
+                            <table id="collapseTable" cellspacing="0" cellpadding="0"
+                                style="width: 100%; margin-top: 5px; " border="0">
+                                <tr>
+                                    <td width="1%"><span class="indicador">3A</span></td>
+                                    <td width="47%" style="padding-left:10px; padding-top:10px">ALGUMA ANORMALIDADE DE
+                                        PLEURAL<Br>
+                                        CONSISTENTE COM PNEUMOCONIOSE:</td>
+                                    <td><br>&nbsp<span class="item2_checked">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> SIM
+                                        (complete 3B, 3C e 3D)</td>
+                                    <td><br><span class="item2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> NÃO
+                                        (passe para a seção 4)</td>
+                                </tr>
+                            </table>
+                            <br>
+
+
+
                         </td>
                     </tr>
                 </table>
