@@ -19,6 +19,10 @@
         
         page {
             background: white;
+            background-image: url(logo_fundo.png);
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-position: right center;
             display: block;
             margin: 0 auto;
             margin-bottom: 0.5cm;
@@ -140,7 +144,8 @@
                             <span style="text-decoration:underline; font-size: 30px;">
                                 Laudo RX Tórax PA - OIT
                             </span><br>
-                            <div style="margin-top:5px;"><b>Código Validação Exame:</b> <span style="color:orange">{{ 60A-D63-4C4 }}</span> <b>Hora:</b> {{ 00:00:00 }} <b>ID:</b> {{ 1 }}</div>
+                            <div style="margin-top:5px;"><b>Código Validação Exame:</b> <span style="color:orange">{{
+                                    60A-D63-4C4 }}</span> <b>Hora:</b> {{ 00:00:00 }} <b>ID:</b> {{ 1 }}</div>
 
 
                         </td>
@@ -263,7 +268,9 @@
                             <table id="collapseTable" cellspacing="0" cellpadding="0" style="width: 100%; margin-top: 5px; " border="0">
                                 <tr>
                                     <td width="1%"><span class="indicador">2A</span></td>
-                                    <td width="47%" style="padding-left:10px; padding-top:1px">ALGUMA ANORMALIDADE DE PARÊNQUIMA<br> CONSISTENTE COM PNEUMOCONIOSE:</td>
+                                    <td width="47%" style="padding-left:10px; padding-top:1px">ALGUMA ANORMALIDADE DE PARÊNQUIMA
+                                        <br> CONSISTENTE COM PNEUMOCONIOSE:
+                                    </td>
                                     <td style="padding-top:2px; padding-bottom:10px"><span class="item2_checked">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> SIM (complete 2B e 2C)
                                     </td>
                                     <td style="padding-top:2px; padding-bottom:10px"><span class="item2">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> NÃO (passe para a seção 3)
@@ -379,7 +386,8 @@
                                                             </td>
                                                             <td style="padding:5px" align="center" width="33%" class="td-bl">&nbsp;0/0
                                                             </td>
-                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;0/1
+                                                            <td style="padding:5px" align="center" class="td-bl">
+                                                                &nbsp;0/1
                                                             </td>
                                                         </tr>
                                                         <tr style="border:2px solid #000">
@@ -387,21 +395,26 @@
                                                             </td>
                                                             <td style="padding:5px" align="center" width="33%" class="td-bl">&nbsp;1/1
                                                             </td>
-                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;1/2
+                                                            <td style="padding:5px" align="center" class="td-bl">
+                                                                &nbsp;1/2
                                                             </td>
                                                         </tr>
                                                         <tr style="border:2px solid #000">
                                                             <td style="padding:5px" align="center">&nbsp;2/1</td>
-                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;2/2
+                                                            <td style="padding:5px" align="center" class="td-bl">
+                                                                &nbsp;2/2
                                                             </td>
-                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;2/3
+                                                            <td style="padding:5px" align="center" class="td-bl">
+                                                                &nbsp;2/3
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td style="padding:5px" align="center">&nbsp;3/2</td>
-                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;3/3
+                                                            <td style="padding:5px" align="center" class="td-bl">
+                                                                &nbsp;3/3
                                                             </td>
-                                                            <td style="padding:5px" align="center" class="td-bl">&nbsp;3/+
+                                                            <td style="padding:5px" align="center" class="td-bl">
+                                                                &nbsp;3/+
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -1140,7 +1153,9 @@
                         </td>
 
                         <td width="50%" style="font-size:13px">
-                            <br> Analisado e Assinado de forma digital por:<br> Dr(a) Médico Teste<br> CRM: 00.0000 - Especialidade: Especialidade do Médico<br> Clinica Médica Multi Exames Ltda ME - (Multi Laudos)<br> Multi Laudos - contato@multilaudos.com.br<br>                            06/04/2015 - 15:33:27 - IP: 201.74.223.91<br> Código Validação Assinatura = 9208-F9EB-787F
+                            <br> Analisado e Assinado de forma digital por:<br> Dr(a) Médico Teste<br> CRM: 00.0000 - Especialidade: Especialidade do Médico<br> Clinica Médica Multi Exames Ltda ME - (Multi Laudos)
+                            <br> Multi Laudos - contato@multilaudos.com.br<br> 06/04/2015 - 15:33:27 - IP: 201.74.223.91
+                            <br> Código Validação Assinatura = 9208-F9EB-787F
                         </td>
                     </tr>
                 </table>
@@ -1152,9 +1167,95 @@
             Rua das Açucenas N° 2496 | Parque Novo Mundo | Americana - SP | (19) 3387-7012 | www.multilaudos.com.br
         </div>
     </page>
-    <!-- <page size=" A4 "></page>
-<page size=" A4 " layout=" landscape "></page>
-<page size=" A5 "></page>
-<page size=" A5 " layout=" landscape "></page>
-<page size=" A3 "></page>
-<page size=" A3 " layout=" landscape "></page> -->
+    <page size="A4">
+
+        <div class="content">
+
+
+            <!-- CABEÇALHO -->
+            <div class="row">
+                <table cellspacing="0" cellpadding="0" class="" id="" width="100%">
+                    <tr>
+                        <td width="70%" style="font-size:12px">
+                            <span style="text-decoration:underline; font-size: 30px;">
+                                Laudo RX Tórax PA - OIT
+                            </span><br>
+
+                        </td>
+
+                        <td width="50%" style="font-size:13px">
+                            <img src="logomarca.png" width="80%">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div style="font-size:0.75em">
+                <br><br><br><br>
+                <b>4 símbolos</b>
+
+                <p>São abaixo listados os símbolos utilizados para registrar características relevantes. Sua utilização é importante pelo fato de descreverem características adicionais relacionadas com exposição à poeira e com outras etiologias. O emprego
+                    desses símbolos é obrigatório.
+                    <br> Alguns dos símbolos implicam interpretações, em vez de apenas descrições do que é visto na radiografia. Uma radiografia torácica póstero-anterior, por si só, pode não ser suficiente para justificar uma interpretação definitiva;
+                    por conseguinte, cada uma das definições a seguir pressupõe uma palavra ou frase introdutória de qualificação como "alterações indicativas de" ou "opacidades sugestivas de" ou "suspeita".
+                </p>
+
+                <p>Os símbolos são:</p>
+
+
+                <p>
+                    <b>aa</b> aorta aterosclerótica<br>
+                    <b>at</b> espessamento pleural apical significativo<br>
+                    <b>ax</b> coalescência de pequenas opacidades3<br>
+                    <b>bu</b> bolha/s<br>
+                    <b>ca</b> câncer, malignidades torácicas que excluem mesotelioma<br>
+                    <b>cg</b> nódulos não pneumoconióticos calcificados (por ex., granuloma)<br>
+                    <b>cn</b> calcificação em pequenas opacidades pneumoconióticas<br>
+                    <b>co</b> anormalidade de forma ou tamanho do coração<br>
+                    <b>cp</b> cor pulmonale<br>
+                    <b>cv</b> cavidade<br> 3 O símbolo ax representa coalescência de pequenas opacidades com as margens das equenas opacidades permanecendo visíveis, ao passo que a grande opacidade demonstra uma opacidade homogênea.<br>
+                    <b>O</b> símbolo ax (coalescência de pequenas opacidades) pode ser registrado tanto na presença como na ausência de grandes<br>
+                    <b>opacidades</b>.<br>
+                    <b>di</b> significativa distorção de uma estrutura intratorácica<br>
+                    <b>ef</b> derrame pleural<br>
+                    <b>em</b> enfisema<br>
+                    <b>es</b> calcificação semelhante a casca de ovo de linfonodos hilares e/ou mediastinais<br>
+                    <b>fr</b> costela(s) fraturada (s) - recente (s) ou consolidada (s)<br>
+                    <b>hi</b> aumento de linfonodos hilares ou mediastinais não calcificados<br>
+                    <b>ho</b> faveolamento<br>
+                    <b>id</b> contorno diafragmático mal definido4<br>
+                    <b>ih</b> contornos cardíacos mal definidos5<br>
+                    <b>kl</b> linhas septais (Kerley)<br>
+                    <b>me</b> mesotelioma<br>
+                    <b>pa</b> atelectasia laminar<br>
+                    <b>pb</b> bandas parenquimatosas6<br>
+                    <b>pi</b> espessamento pleural de uma cisura interlobar7<br>
+                    <b>px</b> pneumotórax<br>
+                    <b>ra</b> atelectasia regular<br>
+                    <b>rp</b> pneumoconiose reumatóide8<br>
+                    <b>tb</b> tuberculose9<br>
+                    <b>od</b> outra (s) doença (s) ou anormalidade (s) significante (s)10<br>
+                </p>
+                <p><b>5 comentário</b></p>
+
+                <p>
+                    Se a qualidade técnica da radiografia não for registrada como 1 (boa), deverá ser feito um comentário sobre a (as) causa (s), antes de se prosseguir a classificação.<br> 4 O símbolo id só deve ser registrado se mais de 1/3 de um hemidiafragma
+                    estiver afetado.<br> 5 O símbolo ih só deve ser registrado se o comprimento do contorno cardíaco afetado, seja do lado direito ou do esquerdo, mostrar-se superior a 1/3 do comprimento do contorno cardíaco esquerdo.<br> 6 Bandas fi
+                    bróticas parenquimatosas em continuidade com a pleura.<br> 7 Ilustrada na radiografi a-padrão 3/3 s/s.<br> 8 Ilustrada na radiografi a-padrão 1/1 p/p.<br> 9 O simbolo tb deve ser empregado tanto para suspeita de tuberculose inativa
+                    como para ativa. O símbolo tb não pode ser utilizado para granuloma calcifi cado de tuberculose ou em outros processos granulomatosos, por exemplo, histoplasmose. Esses achados devem ser registradas como cg.<br> 10 Se for utilizado
+                    o símbolo od, deve ser feito um comentário explanatório
+                </p>
+
+
+
+            </div>
+
+        </div>
+
+
+    </page>
+    <!-- <page size=" A4 " layout=" landscape "></page>
+    <page size=" A5 "></page>
+    <page size=" A5 " layout=" landscape "></page>
+    <page size=" A3 "></page>
+    <page size=" A3 " layout=" landscape "></page> -->
